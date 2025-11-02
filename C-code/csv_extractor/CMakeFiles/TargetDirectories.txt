@@ -1,0 +1,8 @@
+/home/jez/environments/video_uploader/CSV-returner/C-code/csv_extractor/CMakeFiles/GPMF_PARSER_BIN.dir
+/home/jez/environments/video_uploader/CSV-returner/C-code/csv_extractor/CMakeFiles/GPMF_PARSER_LIB.dir
+/home/jez/environments/video_uploader/CSV-returner/C-code/csv_extractor/CMakeFiles/edit_cache.dir
+/home/jez/environments/video_uploader/CSV-returner/C-code/csv_extractor/CMakeFiles/rebuild_cache.dir
+/home/jez/environments/video_uploader/CSV-returner/C-code/csv_extractor/CMakeFiles/list_install_components.dir
+/home/jez/environments/video_uploader/CSV-returner/C-code/csv_extractor/CMakeFiles/install.dir
+/home/jez/environments/video_uploader/CSV-returner/C-code/csv_extractor/CMakeFiles/install/local.dir
+/home/jez/environments/video_uploader/CSV-returner/C-code/csv_extractor/CMakeFiles/install/strip.dir
