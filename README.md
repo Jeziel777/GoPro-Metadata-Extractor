@@ -45,7 +45,7 @@ make
 
 ---
 
-### 4. Run the Web Application
+### 2. Run the Web Application
 
 Once the C extractor is built, run the Python web interface:
 
