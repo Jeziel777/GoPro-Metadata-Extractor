@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <!-- Include the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <!-- Bootstrap styling links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 m-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body m-3">
+                        <h1 class="card-title text-center m-3">Upload MP4 File</h1>
+                        <form id="upload-form" method="POST" enctype="multipart/form-data" class="m-3">
+                            {{ form.hidden_tag() }}
+                            <div class="m-3">
+                                <label for="formFile" class="form-label">{{ form.file.label }}</label>
+                                {{ form.file(class="form-control", accept='.mp4') }}
+                            </div>
+                            {{ form.submit(class="btn btn-primary btn-block") }}
+                        </form>
+
+                        <!-- Progress bar -->
+                        <div class="progress" id="progress-wrapper">
+                            <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                0%
+                            </div>
+                        </div>
+
+                        <div id="message" class="m-3"></div>
+                        <div id="download-links" class="m-3"></div> <!-- Container for download links -->
+                    </div><!-- card-body-->
+                </div><!-- card -->
+            </div>
+        </div>
+    </div>
+    <!-- Include the external JavaScript file -->
+    <script src="{{ url_for('static', filename='upload.js') }}"></script>
+</body>
+</html>

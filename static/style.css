@@ -1,0 +1,20 @@
+/* Simple styling for the progress bar */
+#progress-wrapper {
+    width: 100%;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+#progress-bar {
+    width: 0%;
+    height: 30px;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+.custom-card {
+    background-color: #8a8b90; /* Custom yellow color */
+    color: #333; /* Custom text color */
+}
+
